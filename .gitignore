@@ -1,0 +1,48 @@
+# Compiled Java
+*.class
+
+# Maven (myproject)
+myproject/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# NetBeans / Ant (projectweb)
+projectweb/build/
+projectweb/dist/
+projectweb/nbproject/private/
+projectweb/nbbuild/
+projectweb/nbdist/
+projectweb/.nb-gradle/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+
+# Logs & crash reports
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment & secrets
+.env
+.env.*
+*.local

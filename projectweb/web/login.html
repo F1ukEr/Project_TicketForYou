@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>เข้าสู่ระบบ</title>
+  <link rel="shortcut icon" href="Thailand-international-Football-team.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"> </script>
+</head>
+
+<style media="screen">
+  body {
+    font-family: 'Charmonman', cursive;
+    background-image: url(Thailand-international-Football-team.jpg);
+  }
+
+  #login {
+    background-color: #F5F5DC;
+    margin-top: 50px;
+    width: 30%;
+    border: solid #000000 1px;
+    border-radius: 22px;
+  }
+
+  #forgot {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #newuser {
+    font-size: 16px;
+    margin-top: 22px;
+    width: 100%;
+  }
+
+  #loginsocial {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 50px;
+  }
+
+  #loginsocial h6 {
+    font-size: 24px;
+
+  }
+
+  #loginsocial i {
+    font-size: 50px;
+    justify-content: space-between;
+  }
+
+  #google {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .social {
+    align-items: center;
+    font-size: 32px;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-top: 16px;
+  }
+
+  .footer-bottom {
+    font-size: 22px;
+  }
+
+  footer {
+    margin-top: 42px;
+  }
+</style>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-danger" id="nav1">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+              <img src="Thailand-international-Football-team.jpg" alt="logo" height="30" >
+              TicketForYou
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav bg-danger">
+              <li class="nav-item">
+                <a href="index.jsp" class="nav-link active">หน้าหลัก</a>
+              </li>
+             <li class="nav-item"><a href="about.jsp" class="nav-link ">เกี่ยวกับเรา</a></li>
+              <li class="nav-item"><a href="contract.jsp" class="nav-link">ติดต่อเรา</a></li>
+            </ul>
+    
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+               <li> <a href="myorder.jsp"> <span class="nav-link glyphicon glyphicon-user">รายการของฉัน</span></a></li>
+            <li> <a href="login.html"> <span class="nav-link glyphicon glyphicon-user">เข้าสู่ระบบ</span></a></li>
+           </ul>
+        </div>
+      </nav>
+      <br><br><br><br>
+
+  <div class="container" id="login">
+    <h3>เข้าสู่ระบบ</h3>
+    <form action="login.jsp">
+      Username : <input type="text" name="username" required placeholder="username หรือ E-mail"> <br><br>
+      Password : <input type="password" name="password" required placeholder="password">
+      <a href="#">
+        <p id="forgot">ลืมรหัสผ่าน</p>
+      </a>
+      <p align="right"><button type="submit" id="signin" class="btn btn-info" align="right">เข้าสู่ระบบ</button></p>
+    </form>
+    <hr color=black>
+    <a href="reg.jsp"> <button type="button" id="newuser" class="btn btn-dark">ยังไม่มีบัญชี สร้างบัญชีเลย</button> </a>
+
+    <div class="container" id="loginsocial">
+      <h6 class="text-dark">or</h6>
+      <a href="#" id="facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" id="google"> <i class="fab fa-google"></i></a>
+      <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center bg-danger text-white">
+    <br>
+    <img src="Thailand-international-Football-team.jpg"   height="50" alt=""><br><br>
+    <div class="social">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/home?lang=th"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <p class="footer-bottom"> <span><a href="#" class="text-light">คำถามที่พบบ่อย</a></span>
+      <span><a href="#" class="text-light">นโยบายความเป็นส่วนตัว</a></span>
+      <span><a href="ติดต่อเรา.html" class="text-light">ติดต่อเรา</a></span>
+    </p>
+    <br>
+  </footer>
+</body>
+
+</html>
